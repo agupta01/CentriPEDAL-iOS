@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92F9E60E1DF39EBE009E562A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F9E60D1DF39EBE009E562A /* AppDelegate.swift */; };
+		92F9E6101DF39EBE009E562A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F9E60F1DF39EBE009E562A /* ViewController.swift */; };
+		92F9E6131DF39EBE009E562A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92F9E6111DF39EBE009E562A /* Main.storyboard */; };
+		92F9E6151DF39EBE009E562A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92F9E6141DF39EBE009E562A /* Assets.xcassets */; };
+		92F9E6181DF39EBE009E562A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92F9E6161DF39EBE009E562A /* LaunchScreen.storyboard */; };
+		92F9E6231DF39EBE009E562A /* CentriPEDALUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F9E6221DF39EBE009E562A /* CentriPEDALUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92F9E61F1DF39EBE009E562A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92F9E6021DF39EBD009E562A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92F9E6091DF39EBD009E562A;
+			remoteInfo = CentriPEDAL;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		92F9E60A1DF39EBE009E562A /* CentriPEDAL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CentriPEDAL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92F9E60D1DF39EBE009E562A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		92F9E60F1DF39EBE009E562A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		92F9E6121DF39EBE009E562A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92F9E6141DF39EBE009E562A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92F9E6171DF39EBE009E562A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92F9E6191DF39EBE009E562A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92F9E61E1DF39EBE009E562A /* CentriPEDALUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CentriPEDALUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92F9E6221DF39EBE009E562A /* CentriPEDALUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentriPEDALUITests.swift; sourceTree = "<group>"; };
+		92F9E6241DF39EBE009E562A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92F9E6071DF39EBD009E562A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92F9E61B1DF39EBE009E562A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92F9E6011DF39EBD009E562A = {
+			isa = PBXGroup;
+			children = (
+				92F9E60C1DF39EBE009E562A /* CentriPEDAL */,
+				92F9E6211DF39EBE009E562A /* CentriPEDALUITests */,
+				92F9E60B1DF39EBE009E562A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92F9E60B1DF39EBE009E562A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92F9E60A1DF39EBE009E562A /* CentriPEDAL.app */,
+				92F9E61E1DF39EBE009E562A /* CentriPEDALUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92F9E60C1DF39EBE009E562A /* CentriPEDAL */ = {
+			isa = PBXGroup;
+			children = (
+				92F9E60D1DF39EBE009E562A /* AppDelegate.swift */,
+				92F9E60F1DF39EBE009E562A /* ViewController.swift */,
+				92F9E6111DF39EBE009E562A /* Main.storyboard */,
+				92F9E6141DF39EBE009E562A /* Assets.xcassets */,
+				92F9E6161DF39EBE009E562A /* LaunchScreen.storyboard */,
+				92F9E6191DF39EBE009E562A /* Info.plist */,
+			);
+			path = CentriPEDAL;
+			sourceTree = "<group>";
+		};
+		92F9E6211DF39EBE009E562A /* CentriPEDALUITests */ = {
+			isa = PBXGroup;
+			children = (
+				92F9E6221DF39EBE009E562A /* CentriPEDALUITests.swift */,
+				92F9E6241DF39EBE009E562A /* Info.plist */,
+			);
+			path = CentriPEDALUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92F9E6091DF39EBD009E562A /* CentriPEDAL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92F9E6271DF39EBE009E562A /* Build configuration list for PBXNativeTarget "CentriPEDAL" */;
+			buildPhases = (
+				92F9E6061DF39EBD009E562A /* Sources */,
+				92F9E6071DF39EBD009E562A /* Frameworks */,
+				92F9E6081DF39EBD009E562A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CentriPEDAL;
+			productName = CentriPEDAL;
+			productReference = 92F9E60A1DF39EBE009E562A /* CentriPEDAL.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92F9E61D1DF39EBE009E562A /* CentriPEDALUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92F9E62A1DF39EBE009E562A /* Build configuration list for PBXNativeTarget "CentriPEDALUITests" */;
+			buildPhases = (
+				92F9E61A1DF39EBE009E562A /* Sources */,
+				92F9E61B1DF39EBE009E562A /* Frameworks */,
+				92F9E61C1DF39EBE009E562A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92F9E6201DF39EBE009E562A /* PBXTargetDependency */,
+			);
+			name = CentriPEDALUITests;
+			productName = CentriPEDALUITests;
+			productReference = 92F9E61E1DF39EBE009E562A /* CentriPEDALUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92F9E6021DF39EBD009E562A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Arunav-Gupta";
+				TargetAttributes = {
+					92F9E6091DF39EBD009E562A = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = NRCV2WVRP5;
+						LastSwiftMigration = 0820;
+					};
+					92F9E61D1DF39EBE009E562A = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
+						TestTargetID = 92F9E6091DF39EBD009E562A;
+					};
+				};
+			};
+			buildConfigurationList = 92F9E6051DF39EBD009E562A /* Build configuration list for PBXProject "CentriPEDAL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92F9E6011DF39EBD009E562A;
+			productRefGroup = 92F9E60B1DF39EBE009E562A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92F9E6091DF39EBD009E562A /* CentriPEDAL */,
+				92F9E61D1DF39EBE009E562A /* CentriPEDALUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92F9E6081DF39EBD009E562A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92F9E6181DF39EBE009E562A /* LaunchScreen.storyboard in Resources */,
+				92F9E6151DF39EBE009E562A /* Assets.xcassets in Resources */,
+				92F9E6131DF39EBE009E562A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92F9E61C1DF39EBE009E562A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92F9E6061DF39EBD009E562A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92F9E6101DF39EBE009E562A /* ViewController.swift in Sources */,
+				92F9E60E1DF39EBE009E562A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92F9E61A1DF39EBE009E562A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92F9E6231DF39EBE009E562A /* CentriPEDALUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92F9E6201DF39EBE009E562A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92F9E6091DF39EBD009E562A /* CentriPEDAL */;
+			targetProxy = 92F9E61F1DF39EBE009E562A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		92F9E6111DF39EBE009E562A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92F9E6121DF39EBE009E562A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92F9E6161DF39EBE009E562A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92F9E6171DF39EBE009E562A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92F9E6251DF39EBE009E562A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92F9E6261DF39EBE009E562A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92F9E6281DF39EBE009E562A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NRCV2WVRP5;
+				INFOPLIST_FILE = CentriPEDAL/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arunavgupta.CentriPEDAL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		92F9E6291DF39EBE009E562A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NRCV2WVRP5;
+				INFOPLIST_FILE = CentriPEDAL/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arunavgupta.CentriPEDAL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		92F9E62B1DF39EBE009E562A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CentriPEDALUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arunavgupta.CentriPEDALUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CentriPEDAL;
+			};
+			name = Debug;
+		};
+		92F9E62C1DF39EBE009E562A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CentriPEDALUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arunavgupta.CentriPEDALUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CentriPEDAL;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92F9E6051DF39EBD009E562A /* Build configuration list for PBXProject "CentriPEDAL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92F9E6251DF39EBE009E562A /* Debug */,
+				92F9E6261DF39EBE009E562A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92F9E6271DF39EBE009E562A /* Build configuration list for PBXNativeTarget "CentriPEDAL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92F9E6281DF39EBE009E562A /* Debug */,
+				92F9E6291DF39EBE009E562A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92F9E62A1DF39EBE009E562A /* Build configuration list for PBXNativeTarget "CentriPEDALUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92F9E62B1DF39EBE009E562A /* Debug */,
+				92F9E62C1DF39EBE009E562A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92F9E6021DF39EBD009E562A /* Project object */;
+}
