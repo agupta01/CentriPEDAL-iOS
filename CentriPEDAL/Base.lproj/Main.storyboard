@@ -380,6 +380,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="createNewAccountAction:" destination="kDL-fT-Nat" eventType="touchUpInside" id="B3g-Uz-sh0"/>
                                     <action selector="signUpAction:" destination="kDL-fT-Nat" eventType="touchUpInside" id="2Rb-5Y-Sij"/>
                                     <segue destination="ZOB-Hh-2VK" kind="presentation" id="WCO-Nb-lVo"/>
                                 </connections>
