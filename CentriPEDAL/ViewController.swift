@@ -10,9 +10,13 @@ import UIKit
 
 import Foundation
 
+import Firebase
+
 class ViewController: UIViewController {
 
     @IBOutlet weak var textFieldWithPlaceholder: UITextField!
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()

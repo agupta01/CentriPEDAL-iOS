@@ -118,7 +118,7 @@
                                 <rect key="frame" x="0.0" y="387" width="375" height="2"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" placeholder="Email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rpp-8z-s9w">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" placeholder="Email" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="rpp-8z-s9w">
                                 <rect key="frame" x="53" y="349" width="253" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -481,8 +481,8 @@
         <image name="personvector" width="21" height="19"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="WCO-Nb-lVo"/>
-        <segue reference="gEd-G7-O09"/>
         <segue reference="YkX-3x-nLE"/>
+        <segue reference="gEd-G7-O09"/>
+        <segue reference="afG-Q5-EXI"/>
     </inferredMetricsTieBreakers>
 </document>
