@@ -7,7 +7,7 @@ target 'CentriPEDAL' do
 
   # Pods for CentriPEDAL
 pod 'Firebase/Core'
-
+pod ‘Firebase/Auth’
 
   target 'CentriPEDALUITests' do
     inherit! :search_paths
