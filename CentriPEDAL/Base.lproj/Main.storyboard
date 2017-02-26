@@ -305,7 +305,7 @@
         <!--Sign Up-->
         <scene sceneID="feX-NT-9gg">
             <objects>
-                <viewController title="Sign Up" id="kDL-fT-Nat" customClass="SignUp" sceneMemberID="viewController">
+                <viewController title="Sign Up" id="kDL-fT-Nat" customClass="SignUp" customModule="CentriPEDAL" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="3Hm-Ys-8Lb"/>
                         <viewControllerLayoutGuide type="bottom" id="eMh-52-Iap"/>
